@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+    font-size: 40pt;
+}
+
+div {
+    border: solid 4px black;
+    padding: 1%
+}
+
+p {
+    font-size: 15pt;
+}
+
+h2#name {
+    margin-top: 1%;
+    margin-left: 75%;
+}
+
+h2 {
+    margin-top: 1%;
+}
+
+div#pages {
+    border: solid 4px black;
+    padding: 1%;
+    height: 500px;
+    margin-top: 2%;
+}
+
+div#AboutMe {
+    float: left;
+    width: 30%;
+    min-height: 75%;
+    text-align: center;
+}
+
+div#HTMLCSS {
+    width: 30%;
+    float: left;
+    margin-left: 1.8%;
+    margin-right: auto;
+    min-height: 75%;
+}
+
+div#JS {
+    float: right;
+    width: 30%;
+    min-height: 75%;
+}
+
+p.link {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+img.screenshot {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+a:hover {
+    color: lightcyan;
+}
