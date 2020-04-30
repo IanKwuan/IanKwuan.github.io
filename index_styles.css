@@ -9,7 +9,7 @@ div {
 }
 
 div#intro {
-    background-color: lightgray;
+    background-color: lightblue;
 }
 
 p {
@@ -73,7 +73,7 @@ img#face {
 }
 
 div.square {
-    background-color: lightgray;
+    background-color: lightblue;
 }
 
 div.square:hover {
