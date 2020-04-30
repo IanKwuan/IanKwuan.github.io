@@ -1,0 +1,46 @@
+p {
+    font-size: 18pt;
+    line-height: 1.8em;
+}
+
+img {
+    border: solid 4px black;
+    padding: none;
+    float: left;
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+
+div {
+    float: right;
+    border: solid 4px black;
+    background-color: lightblue;
+    padding: 1%;
+    margin-right: 3%;
+    width: 68%;
+}
+
+aside {
+    width: 15%;
+    margin-left: 3%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40pt;
+}
+
+h4 {
+    font-size: 15pt;
+    background-color: lightblue;
+    padding: 4%;
+    border: solid 4px black;
+}
+
+a:hover {
+    color: lightcyan;
+}
+
+h4:hover {
+    border-color: lightcyan;
+}
