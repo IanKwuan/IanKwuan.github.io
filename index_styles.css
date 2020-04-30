@@ -8,6 +8,10 @@ div {
     padding: 1%
 }
 
+div#intro {
+    background-color: lightgray;
+}
+
 p {
     font-size: 15pt;
 }
@@ -62,4 +66,16 @@ img.screenshot {
 
 a:hover {
     color: lightcyan;
+}
+
+img#face {
+    border: solid 4px black;
+}
+
+div.square {
+    background-color: lightgray;
+}
+
+div.square:hover {
+    border-color: lightcyan;
 }
