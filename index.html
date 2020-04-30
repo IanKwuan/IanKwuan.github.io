@@ -1,8 +1,45 @@
 <!doctype html>
 <html>
-  <body>
-    <h1><a href="about_me.html">About Me</a></h1>
-    <h1><a href="HTML_&_CSS_Samples.html">HTML & CSS Samples</a></h1>
-    <h1><a href="JS_Samples.html">Javascript Samples</a></h1>
-  </body>
+    <head>
+        <title>Ian's Portfolio - Home Page</title>
+        
+        <link href="Background.css" rel="stylesheet">
+        <link href="index_styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Ian's Portfolio</h1>
+            <div id="intro">
+                <p>
+                    <em>Welcome to my portfolio, which showcases the work I've done 
+                    for the past semester (Spring 2020) in CIS 111 - Intro to Web Programming.
+                    I've provided the samples to my projects in the pages listed below -
+                    feel free to take a look at them.<br>
+                    Enjoy exploring around the portfolio!</em><br>
+                    <h2 id="name">-Ian</h2>
+                </p>
+            </div>
+            
+            <!--Need to fix margin for this div to be able to float it-->
+            <div id="pages">
+                <h2>Pages</h2>
+                <div id="AboutMe">
+                    <a href="about_me.html">
+                        <img src="Profile%20Picture.jpg" width="31.5%" id="face"/><br>
+                        <p class="link">About Me</p>
+                    </a>
+                </div>
+                <div id="HTMLCSS">
+                    <a href="HTML_&_CSS_Samples.html">
+                        <img src="Screenshot%20(10).png" width="90%" class="screenshot"/><br>
+                        <p class="link">HTML &amp; CSS Samples</p>
+                    </a>
+                </div>
+                <div id='JS'>
+                    <a href="JS_Samples.html">
+                        <img src="Screenshot%20(11).png" width="90%" class="screenshot"/><br>
+                        <p class="link">Javascript Samples</p>
+                    </a>
+                </div>
+            </div>
+    </body>
 </html>
