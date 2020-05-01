@@ -26,30 +26,21 @@ h2 {
 }
 
 div#pages {
-    border: solid 4px black;
     padding: 1%;
-    height: 500px;
+    height: 80%;
     margin-top: 2%;
 }
 
 div#AboutMe {
-    float: left;
-    width: 30%;
     min-height: 75%;
     text-align: center;
 }
 
 div#HTMLCSS {
-    width: 30%;
-    float: left;
-    margin-left: 1.8%;
-    margin-right: auto;
     min-height: 75%;
 }
 
 div#JS {
-    float: right;
-    width: 30%;
     min-height: 75%;
 }
 
@@ -74,8 +65,15 @@ img#face {
 
 div.square {
     background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 div.square:hover {
     border-color: lightcyan;
+}
+
+td {
+    width: 33%;
 }
