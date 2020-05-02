@@ -7,7 +7,6 @@ p {
 div {
     border: solid 4px black;
     background-color: lightblue;
-    padding: 1%;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -34,6 +33,7 @@ img {
 
 h4 {
     text-align: center;
+    padding: 1%;
 }
 
 td#img {
