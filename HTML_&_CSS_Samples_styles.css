@@ -1,0 +1,56 @@
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 40pt;
+    text-align: center;
+}
+
+td {
+    padding: 1%;
+    background-color: lightblue;
+}
+
+p {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+td.preview {
+    width: 25%;
+    border:solid 4px black;
+}
+
+td.description {
+    border: solid 4px black;
+}
+
+img {
+    border: solid 4px black;
+}
+
+div.paragraph {
+    width: 90%;
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:hover {
+    color: lightcyan;
+}
+
+h4#back {
+    margin-left: 5%;
+    border: solid 4px black;
+    width: 12%;
+    padding: 1%;
+    background-color: lightblue;
+    font-size: 1em;
+}
+
+h4 {
+    font-size: 2em;
+    text-align: center;
+}
