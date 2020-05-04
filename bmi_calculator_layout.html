@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+
+<!-- Project 6 - BMI Calculator -->
+<!-- By Ian Kwuan -->
+<!-- Date: 3/4/20 -->
+
+<html>
+    <head>
+        <title>BMI Calculator</title>
+        
+        <link href="bmi_calculator_styles.css" rel="stylesheet"/>
+    
+        <script src="bmi_calculator.js"></script>
+    </head>
+    <body>
+        <h1>BMI Calculator</h1>
+        
+        <div>In the boxes below, please insert your height and weight. <br> For your height, feet and inches go into the separate boxes indicated by the labels. <br> After inserting your height and weight, please click on the "Calculate BMI" button. Press "Reset" to reset the information in the boxes. <br> The resulting BMI will be shown below.</div>
+        
+        <form>
+            <fieldset>
+                <div>
+                    <label for="feet">Height (feet)</label>
+                    <input id="feet" placeholder="Enter feet"/>
+                </div>    
+                <div>
+                    <label for="inches">Height (inches)</label>
+                    <input id="inches" placeholder="Enter inches"/>
+                </div>
+                <div>
+                    <label for="weight">Weight (lbs)</label>
+                    <input id="weight" placeholder="Enter pounds"/>
+                </div>
+            </fieldset>
+        </form>
+            
+        <div>
+            <button type="submit" onclick="calcBMI()">Calculate BMI</button>
+            <button type="reset" onclick="reset()">Reset</button>
+        </div>
+        
+        <div>
+            <p>BMI: </p>
+            <p id="return">(Appears here)</p>
+        </div>
+    </body>
+</html>
